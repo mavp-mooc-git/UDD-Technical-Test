@@ -1,0 +1,14 @@
+GET https://api.mercadolibre.com/sites/MLA/search?q=%22Macbook%20Air%20New%202021%20Chip%20M1%22
+
+###
+
+GET http://localhost:3001/api/search?q=Macbook%20Air%20New%202021%20Chip%20M1
+
+###
+
+GET http://localhost:3001/api/search?q="Macbook Air New 2021 Chip M1"
+
+###
+
+GET http://localhost:3001/api/search?q="iphone 6"&offset=5
+
